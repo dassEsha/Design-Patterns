@@ -1,4 +1,4 @@
-package com.ishaa.main.BehaviouralPatterns.AdapterPattern;
+package com.ishaa.main.BehaviouralPatterns;
 
 public class TurkeyAdapter implements Duck{
    Turkey turkey;

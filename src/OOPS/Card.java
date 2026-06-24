@@ -1,10 +1,10 @@
 package OOPS;
 
-public class CreditCard {
+ abstract public class Card implements PaymentMethod {
     private String cardNo;
     private String userName;
 
-    public CreditCard(String cardNo,String name){
+    public Card(String cardNo,String name){
         this.cardNo = cardNo;
         this.userName = userName;
     }
@@ -14,4 +14,6 @@ public class CreditCard {
     public String getUserName(){
         return userName;
     }
+
+
 }

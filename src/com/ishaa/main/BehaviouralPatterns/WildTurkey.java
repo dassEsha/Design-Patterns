@@ -1,4 +1,4 @@
-package com.ishaa.main.BehaviouralPatterns.AdapterPattern;
+package com.ishaa.main.BehaviouralPatterns;
 
 public class WildTurkey implements Turkey{
     public void gobble(){

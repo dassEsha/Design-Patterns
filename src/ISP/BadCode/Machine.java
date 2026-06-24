@@ -1,4 +1,4 @@
-package ISP;
+package ISP.BadCode;
 
 public interface Machine {
     void print(Document doc);

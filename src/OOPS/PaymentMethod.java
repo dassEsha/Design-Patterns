@@ -1,4 +1,5 @@
 package OOPS;
 
-public class PaymentMethod {
+public interface PaymentMethod {
+    void pay();
 }

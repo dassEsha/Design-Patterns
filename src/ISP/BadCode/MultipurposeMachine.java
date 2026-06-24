@@ -1,6 +1,9 @@
-package ISP;
+package ISP.BadCode;
 
-public class MultipurposeMachine implements Machine{
+import ISP.BadCode.Document;
+import ISP.BadCode.Machine;
+
+public class MultipurposeMachine implements Machine {
     @Override
     public void print(Document doc) {
         System.out.println("Printing the document..");
